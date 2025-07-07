@@ -18,8 +18,7 @@ export default function BottomNavigationBar({
 
   return (
     <View className="w-full flex flex-col items-center justify-center">
-      <View
-        className="bg-white flex-row justify-between p-2 bottom-8 bg-white rounded-full"
+      <View className="bg-white flex-row justify-between p-2 px-6 bottom-8 rounded-full border border-blue-500"
         style={{
           width: "80%",
         }}
