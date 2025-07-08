@@ -18,13 +18,12 @@ export default function BottomNavigationBar({
 
   return (
     <View className="w-full flex flex-col items-center justify-center">
-      <View className="bg-white flex-row justify-between p-2 px-6 bottom-8 rounded-full border border-blue-500"
+      <View className="bg-white flex-row justify-between p-2 px-6 bottom-4 rounded-full border border-blue-500"
         style={{
           width: "80%",
         }}
       >
         {state.routes.map((route, index) => {
-          console.log(route);
           const { options } = descriptors[route.key];
           const label =
             options.tabBarLabel !== undefined
